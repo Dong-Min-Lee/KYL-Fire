@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar_layout_1f"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back">
+
+
+        <ImageView
+            android:id="@+id/room_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="105dp"
+            android:src="@drawable/fire_button"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/room_2"
+            android:layout_width="40dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="210dp"
+            android:src="@drawable/fire_button"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/room_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="330dp"
+            android:src="@drawable/fire_button"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/room_4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="435dp"
+            android:src="@drawable/fire_button"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/stairs_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/fire_button"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/stairs_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="520dp"
+            android:src="@drawable/fire_button"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/Hallway_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="109dp"
+            android:layout_marginBottom="-212dp"
+            android:src="@drawable/fire_button"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/Hallway_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="265dp"
+            android:layout_marginBottom="-212dp"
+            android:src="@drawable/fire_button"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/Hallway_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginBottom="-212dp"
+            android:src="@drawable/fire_button"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/escape1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/escape"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/escape2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="520dp"
+            android:src="@drawable/escape"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/escape_no1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/no_escape"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/escape_no2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="520dp"
+            android:src="@drawable/no_escape"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/room1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="115dp"
+            android:text="101호" />
+        <TextView
+            android:id="@+id/room2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="230dp"
+            android:text="102호" />
+        <TextView
+            android:id="@+id/room3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="335dp"
+            android:text="103호" />
+        <TextView
+            android:id="@+id/room4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="445dp"
+            android:text="104호" />
+        <TextView
+            android:id="@+id/Hallway1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="-212dp"
+            android:text="좌측복도" />
+        <TextView
+            android:id="@+id/Hallway2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginBottom="-212dp"
+            android:text="중앙복도" />
+        <TextView
+            android:id="@+id/Hallway3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="445dp"
+            android:layout_marginBottom="-212dp"
+            android:text="우측복도" />
+        <TextView
+            android:id="@+id/stairs1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="좌측계단" />
+        <TextView
+            android:id="@+id/stairs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="530dp"
+            android:text="우측계단" />
+
+        <ImageView
+            android:id="@+id/line1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/line"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/line2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="260dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/line"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/line3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="430dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/line"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/line1_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/line2"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/line2_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="260dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/line2"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/line3_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="430dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/line2"
+            android:visibility="invisible" />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
